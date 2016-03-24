@@ -1,0 +1,102 @@
+html {overflow-y: scroll; overflow-x: hidden;}
+body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
+
+/*.hline {
+  width: 50%;
+  height: 2px;
+  background-color: #444A42;
+  margin: 20px 0;
+}*/
+
+
+#form table {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 1.5em;
+}
+
+  form {
+    margin: 34px auto;
+  }
+
+  form tr {
+    text-align:left;
+  }
+  form table {
+    width: 500px; margin-bottom: 16px;
+  }
+  form th {
+      padding: 8px;
+
+  }
+
+  form td input {
+      width: 200px;
+      border-radius: 4px;
+      padding: 10px;
+      border: 1px solid #a5a5a5;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  textarea {
+    width: 400px;
+    height: 150px;
+
+  }
+  textarea, label {
+    display: block;
+    margin-bottom: 2%;
+  }
+
+
+  form input[type="submit"] {
+      text-align: center;
+      background: #3888c2;
+      color: #FFF;
+      border-radius: 4px;
+      font-size: 16px;
+      padding: 14px 20px;
+      font-family: 'Open Sans', sans-serif;
+      display: block;
+
+  }
+    form input[type="submit"]:hover {
+      background: #358dce;
+      cursor: pointer;
+    }
+#input {
+  display: inline-block;
+}
+  #card {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 50px;
+    /*visibility: hidden;*/
+  }
+  .cards {
+    display: block;
+    border: 2px solid darkgrey;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(138, 138, 232);
+    margin-bottom: 10px;
+  }
+
+  .cards h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .cards div {
+    margin-left: 25px;
+  }
+
+.desc {
+  text-align: center;
+  color: rgb(135, 12, 38);
+}
+
+.hidden {
+  visibility: hidden;
+}

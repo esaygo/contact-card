@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/jquery.js"></script>
+</head>
+<body>
+  <aside id="input">
+    <form id="form">
+      <table>
+        <tr>
+          <th>
+            <label for="form-FirstName">First Name</label>
+          </th>
+          <td colspan="2">
+            <input id="form-firstName" type="text" name="First Name" placeholder="First Name" />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="form-lastName">Last Name</label>
+          </th>
+          <td>
+            <input id="form-lastName" type="text" name="Last Name" placeholder="Last Name" />
+          </td>
+        </tr>
+      </table>
+      <label for="description">Description</label>
+      <textarea id="description" name="description" placeholder="Enter description"></textarea>
+      <input type="submit" value="Add User" />
+    </form>
+  </aside>
+  <aside id="card"></aside>
+</body>
+</html>
